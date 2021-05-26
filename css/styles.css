@@ -1,0 +1,238 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --accent-page-color: #2f303a;
+  --white: rgba(255, 255, 255);
+  --black: #000000;
+  --button-color: #f5f4fa;
+  --alpha: 0.6;
+}
+/* СТИЛИ ДЛЯ ВСЕГО САЙТА */
+body {
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.846;
+  letter-spacing: 0.03em;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+/* стили для ссылок */
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+  color: var(--accent-text-color);
+}
+/* убираем маркировку списков */
+.list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+/* страница студии */
+/* секция навигации */
+/* логотип */
+.logo {
+  color: var(--accent-text-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.192;
+}
+
+.logo-part-dark {
+  color: var(--black);
+}
+
+.logo-part-light {
+  color: var(--white);
+}
+/* навигация */
+.navigation {
+  background-color: var(--white);
+}
+.nav-paragraph,
+.contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+}
+
+.nav-paragraph {
+  color: var(--title-text-color);
+}
+/* контакты */
+.contacts {
+  color: var(--primary-text-color);
+}
+
+.studio-link:visited,
+.portfolio-link:visited {
+  color: var(--accent-text-color);
+}
+/* секция hero */
+.adress-form,
+.hero {
+  background-color: var(--accent-page-color);
+}
+/* заголовок */
+.head-title {
+  color: var(--white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+/* центрирование текста */
+.service,
+.section-title {
+  text-align: center;
+}
+/* кнопка "заказать услугу */
+.service {
+  background-color: var(--accent-text-color);
+  color: var(--white);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px 32px;
+  cursor: pointer;
+}
+/* секция особенности */
+/* скрытый заголовок */
+.hide-title {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+/* цвет выделенного текста*/
+.feature-name,
+.section-title,
+.team-member,
+.project-name {
+  color: var(--title-text-color);
+}
+
+/* заголовки */
+.feature-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+/* текст особенностей */
+.text {
+  font-size: 14px;
+  line-height: 1.714;
+  margin: 0px;
+}
+/* секция скиллов */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+/* секция наша команда*/
+
+.team {
+  background-color: var(--button-color);
+}
+.profession,
+.team-member {
+  font-size: 16px;
+  line-height: 1.187;
+}
+
+.team-member {
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.profession {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+/* подвал */
+.location,
+.mail-phone {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+.location {
+  color: var(--white);
+}
+
+.mail-phone {
+  color: var(--white), var(--alpha);
+}
+/* страница портфолио */
+/* кнопки */
+.filter {
+  color: var(--title-text-color);
+  background-color: var(--button-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  border: 0;
+  border-radius: 4px;
+  padding: 6px 22px;
+  cursor: pointer;
+}
+
+.filter:hover,
+.filter:focus {
+  background-color: var(--accent-text-color);
+  color: var(--white);
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.project-option {
+  font-size: 16px;
+  line-height: 1.875;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
