@@ -252,6 +252,10 @@ body {
   background-color: var(--button-color);
 }
 
+.team-title {
+  margin-bottom: 50px;
+}
+
 .team-cards {
   display: flex;
   flex-direction: column;
@@ -266,10 +270,15 @@ body {
   box-shadow: var(--shadow-team-card);
 }
 
+.team-member-card {
+  padding: 30px;
+}
+
 .profession,
 .team-member {
   font-size: 16px;
   line-height: 1.187;
+  text-align: center;
 }
 
 .team-member {
@@ -281,7 +290,6 @@ body {
 .profession {
   margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 30px;
 }
 
 /* подвал */
